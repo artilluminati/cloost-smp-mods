@@ -1,6 +1,7 @@
 {
   "minecraft": "1.19.2",
   "fabric": "0.15.11",
+  "ip", "192.168.1.9:25565",
   "mods": [
     "architectury-6.6.92-fabric.jar",
     "cloost-smp-1.0.0.jar",
