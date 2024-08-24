@@ -279,6 +279,7 @@ input[type="range"]:focus::-webkit-slider-thumb {
 .settings {
     padding-block: 40px;
     overflow-y: scroll;
+    max-height: calc(100vh - 56px - (40px * 2))
 }
 
 .settings__container {
