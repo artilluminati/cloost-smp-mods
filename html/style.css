@@ -173,6 +173,25 @@ div.main__container {
     cursor: pointer;
 }
 
+.btn-main:hover svg *, .input-main:hover svg * {
+    fill: #29a7f1cc;
+}
+.btn-main:active svg *, .input-main:active svg * {
+    fill: #29a7f1;
+}
+
+.btn-main:hover, .input-main:hover{
+    /* some styles */
+}
+.btn-main:active, .input-main:active, .btn-main:focus, .input-main:focus{
+    border-color: #29a7f1cc;
+    outline: none;
+}
+.btn-blue:active, .btn-blue:focus{
+    border-color: #ffffff;
+    outline: none;
+}
+
 .btn-blue {
     border: 2px solid rgba(75, 98, 112, 0.2);
     border-radius: 8px;
