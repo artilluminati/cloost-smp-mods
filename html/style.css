@@ -122,7 +122,7 @@ div.main__container {
 .main__status p, .main__status {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     color: #2a2f33;
 }
 
