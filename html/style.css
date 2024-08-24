@@ -268,3 +268,67 @@ input[type="range"]:focus::-webkit-slider-thumb {
     outline: none;
     outline-offset: 0.125rem;
 }
+
+.settings__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    color: #2a2f33;
+}
+
+.settings {
+    padding-block: 40px;
+}
+
+.settings__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.settings__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.settings__param {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.settings__param h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #394144;
+}
+
+.settings__param p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #394144;
+}
+
+.settings__range-tooltip {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(57, 65, 68, 0.7);
+    padding-inline: calc(10px);
+}
+.settings__range-tooltip span {
+    width: 16px;
+}
+
+.save-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
