@@ -357,3 +357,26 @@ input[type="range"]:focus::-webkit-slider-thumb {
     column-gap: 10px;
 }
 
+.modal{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: 1000;
+    background: #0000004d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal>.modal_content{
+    width: 50%;
+    background: #ffffff;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: 14px;
+}
