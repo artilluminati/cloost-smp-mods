@@ -123,7 +123,7 @@ div.main__container {
 .main__logo svg {
     height: 47px;
 }
-.main__status p {
+.main__status p, .main__status {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
